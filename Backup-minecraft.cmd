@@ -10,6 +10,6 @@ restic.exe backup ^
     .minecraft || exit /b 1
 pause
 restic.exe check  --read-data || exit /b 1
-restic.exe forget --keep-last 3 --prune
+restic.exe forget --keep-last 2 --prune
 popd
 @endlocal
