@@ -36,8 +36,11 @@ Step-Exec "ferium.exe profile create --mod-loader fabric --name $profile --game-
 # Fabric API from ChaosForge
 Step-Exec "ferium.exe add 306612"
 
+# FreeCam ( https://www.curseforge.com/minecraft/mc-mods/free-cam )
+Step-Exec "ferium add 557076"
+
 # FreeCam by Zergatul from ChaosForge
-Step-Exec "ferium.exe add 618947"
+# Step-Exec "ferium.exe add 618947"
 
 # Malilib from GitHub
 Step-Exec "ferium.exe add sakura-ryoko/malilib"
