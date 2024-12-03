@@ -8,7 +8,7 @@
 #   scoop bucket add games
 #   scoop install ferium
 
-$gameversion = "1.21.3"
+$gameversion = "1.21.4"
 $profile = "v$gameversion"
 
 function Step-Exec($command) {
