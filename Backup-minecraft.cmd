@@ -1,7 +1,7 @@
 @setlocal
 @set PROMPT=$D$S$T$G$S
 
-rem (e.g.) set "RESTIC_REPOSITORY=%USERPROFILE%\繝槭う繝峨Λ繧､繝暴restic"
+rem (e.g.) set "RESTIC_REPOSITORY=%USERPROFILE%\マイドライブ\restic"
 
 pushd "%APPDATA%"
 restic.exe backup ^
